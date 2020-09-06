@@ -1,0 +1,24 @@
+{
+  "name": "azurevmcontroll",
+  "version": "1.0.0",
+  "description": "Azure Vm Controll via Azure Static Web Apps",
+  "main": "index.js",
+  "dependencies": {
+    "azure-arm-compute": "^10.0.0",
+    "ms-rest-azure": "^3.0.0",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "azure",
+    "vm",
+    "start",
+    "stop",
+    "info"
+  ],
+  "author": "Mariusz Ferdyn",
+  "license": "ISC"
+}
