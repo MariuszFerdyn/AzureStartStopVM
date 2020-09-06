@@ -1,6 +1,6 @@
 # Azure Start, Stop VM
 
-This Static WebSite can be deployed to Azure Static Website https://azure.microsoft.com/pl-pl/services/app-service/static/
+This Static WebSite can be deployed to Static Web Apps  https://azure.microsoft.com/pl-pl/services/app-service/static/
 
 This project allows you to:
 1. List State of VM in particular Resource Group
@@ -22,7 +22,7 @@ Please set your password also:
 'StaticPassword';
 
 
-Deploy as an Azure Static Website
+Deploy as an Azure Static Web Apps 
 
 
 #Permission
