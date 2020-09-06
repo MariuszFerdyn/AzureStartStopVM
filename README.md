@@ -32,7 +32,7 @@ Deploy as an Azure Static Web Apps
 # Permission
 
 
-You must assign permission to created New Registration - you can follow https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles-portal and file permission.json
+You must assign permission to created New Registration - you can follow https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles-portal and file permissiona.json
 
 
 # ToDo
