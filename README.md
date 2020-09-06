@@ -24,6 +24,37 @@ Please set your password also:
 
 Deploy as an Azure Static Website
 
+
+#Permission
+
+You must assign permission to created New Registration - you can follow https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles-portal
+{
+    "properties": {
+        "roleName": "StartStopViewVM",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/15eebd79-b0ee-4482-8070-6789e0a29cb8"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Compute/virtualMachines/read",
+                    "Microsoft.Compute/virtualMachines/powerOff/action",
+                    "Microsoft.Compute/virtualMachines/extensions/read",
+                    "Microsoft.Compute/virtualMachines/instanceView/read",
+                    "Microsoft.Compute/virtualMachines/vmSizes/read",
+                    "Microsoft.Compute/virtualMachines/start/action",
+                    "Microsoft.Compute/virtualMachines/deallocate/action"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
+
+
 # ToDo
 
 Azure Active Directory Authentication
