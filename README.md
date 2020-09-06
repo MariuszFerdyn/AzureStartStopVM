@@ -29,7 +29,7 @@ Please set your password also:
 Deploy as an Azure Static Web Apps 
 
 
-#Permission
+# Permission
 
 
 You must assign permission to created New Registration - you can follow https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles-portal and file permission.json
